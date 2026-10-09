@@ -187,7 +187,7 @@ border-top: solid  #cec5ce;
   grid-template-columns: 1fr 1fr 1fr ;
   grid-template-rows: 1fr 1fr 1fr 1fr;
 margin: 16px;
-  
+   max-width: 975px;
 }
 
 
