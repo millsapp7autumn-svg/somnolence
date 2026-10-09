@@ -1,0 +1,378 @@
+.letterboxd-button, .media-button, .shortstories-button, .loveletters, .backbutton {
+          cursor: pointer;
+          color:black ;
+          background-color: rgba(90, 33, 56, 0.33);
+          margin: 0;
+          margin-top: 0;
+          font-family: Luminari;
+          border-radius: 7px;
+          letter-spacing: 3px;
+    text-shadow: #888 1px 2px 2px;
+}
+
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 3px); }
+    100%   { transform: translate(0, -0px); }    
+}
+        
+.letterboxd-button:hover, .media-button:hover, .shortstories-button:hover, .loveletters:hover, .backbutton:hover {
+          background-color:black;
+          color: rgba(90, 33, 56, 0.33) ;
+        }
+
+  
+  .red-button{
+    background-color: #f9584f; 
+     width: 15px;
+    height: 15px;
+    padding: 0; 
+    border-radius: 50%;  
+    border: none; 
+    margin-right: 5px;
+    margin: 3px;
+  }
+  
+  .yellow-button {
+    background-color: #fab622; 
+     width: 15px;
+    height: 15px;
+    padding: 0; 
+    border-radius: 50%; 
+    border: none; 
+    margin-right: 5px;
+     margin: 3px;
+  }
+  
+  .green-button {
+    background-color: #34e94f; 
+     width: 15px;
+    height: 15px;
+    padding: 0; 
+    border-radius: 50%; 
+    border: none; 
+    margin-right: 5px;
+     margin: 3px;
+  }
+
+
+
+.backbutton {
+  display: block;
+  margin: 10px;
+  
+}
+
+
+body, html{
+  background-position: top right, bottom left;
+  background-size: cover;
+  background-repeat: no-repeat, repeat-x;
+  background-attachment: fixed;
+  font-family: Luminari;
+   min-width: 1000px;
+}
+
+
+
+
+body.urm {
+  background-image: url(Images/sky.jpg);
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+
+}
+
+body.loveletters {
+  background-image: url(Images/sky.jpeg);
+  border: groove rgb(82, 49, 62);
+  border-width: 8px;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Luminari;
+  cursor: default;
+}
+
+body.shortstories{
+  background-image:url(Images/sunset\ clouds.jpeg);
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  border: solid 10px;
+}
+
+body.media{
+    background-image:url(Images/gradientsky.jpeg);
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+ border: dotted whitesmoke 10px;
+}
+
+
+.staricon{
+  margin: 0;
+}
+
+.writingpaper{
+  background-color: rgba(150, 146, 136, 0.63);
+width: 900px;
+height: 856px;
+  margin: 3%;
+  display: inline-block;
+  border:black 3px outset;
+  overflow: auto; 
+  
+ 
+}
+
+.stories{
+  border-top: solid rgb(106, 105, 105)  4px;
+   border-bottom: solid rgb(106, 105, 105)  4px;
+    border-left: inset rgb(106, 105, 105) 4px;
+  max-width: 600px;
+  margin: 10px;
+height: 250px;
+overflow: auto; 
+}
+
+
+h3{
+  margin-top:60px;
+  letter-spacing: 8px;
+  font-size: 3rem;
+color: rgb(97, 102, 99);
+border-bottom: dotted rgb(97, 102, 99) 8px;
+border-radius: 10px;
+display: inline-block;
+}
+
+h2 {
+padding: 15px;
+padding-left: 60px;
+padding-right: 60px;
+color: #b3aab3;
+font-size: xx-large;
+display: inline-block;
+border-bottom: solid  #cec5ce;
+border-top: solid  #cec5ce;
+}
+
+
+.scroll-box-love-middle{
+    width: 1100px;       
+    height: 1000px;      
+    overflow: auto;    
+    opacity: 65%;
+    display: inline-block;
+    background-color: #3671a9;
+    border: solid rgba(206, 197, 206, 0.7);
+    border-radius: 4px;
+    margin: 20px;
+    
+  
+  
+ 
+}
+.scroll-box-mini-sky{
+  width: 975px;
+  height: auto;
+  background-color: #3671a9;
+  display: block;
+  color: black;
+  border: dashed #cec5ce;
+    display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  
+}
+
+
+.galleryimg{
+
+
+  width: 300px;
+  height: 300px;
+margin: 12px;
+}
+
+
+.scroll-box-middle{
+     width: 300px;       
+    height: 400px;      
+    overflow: auto;    
+    border: ridge 5px white;
+    background-color: transparent;
+    padding: 10px; 
+   display: grid;
+   grid-template-columns: 27px 27px 1fr;
+    border-radius: 10px;
+    margin-right: 10%; 
+    margin-top: 10%; 
+    margin-bottom: 10%; 
+    margin-left: 60%; 
+         animation-name: floating;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+      box-shadow: inset 13px 0px 6px -10px rgba(145, 158, 174), inset -13px 0px 6px -10px rgb(66 66 66 / 56%), inset 0px 13px 6px -10px #ffffff, inset 0px -13px 6px -10px rgb(66 66 66 / 38%);
+    }
+
+
+.mini-scroll-1{
+     width: 259px;       
+    height: 356px;      
+    overflow: auto;    
+    border: 5px rgba(97, 88, 91, 0.659) ; 
+    border-style: ridge;
+    background-color: rgba(145, 158, 174);
+    padding: 10px; 
+    margin: 0;
+    display: inline-block;
+     
+border-radius: 10px;
+      box-shadow: inset 13px 0px 6px -10px rgb(66 66 66 / 20%), inset -13px 0px 6px -10px rgb(66 66 66 / 56%), inset 0px 13px 6px -10px #ffffff, inset 0px -13px 6px -10px rgb(66 66 66 / 38%);
+    }
+   
+
+  .mini-scroll-2{
+    background-color: rgba(90, 33, 56, 0.33) 8px;
+    width: 259px;
+    height: fit-content;
+    display: inline-block;
+    margin: 0;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    text-shadow: #888 2px 4px 4px;
+    letter-spacing: 1px;
+    color: whitesmoke;
+  } 
+
+.ytaudio{
+  display: inline-block;
+}
+
+
+.container {
+  position: relative;
+  overflow: hidden; /* Hides rotated corners */
+  width: 300px;
+  height: 200px;
+}
+
+
+ ::-webkit-scrollbar {
+      width: 16px;
+    }
+
+    ::-webkit-scrollbar:horizontal {
+      height: 17px;
+    }
+
+    ::-webkit-scrollbar-corner {
+      background: #eee;
+    }
+
+    ::-webkit-scrollbar-track:vertical {
+      background: linear-gradient(90deg, #e5e5e5, #f0f0f0 20%);
+    }
+
+    ::-webkit-scrollbar-track:horizontal {
+      background: linear-gradient(180deg, #e5e5e5, #f0f0f0 20%);
+    }
+
+    ::-webkit-scrollbar-thumb {
+      border: 1.5px solid #888;
+      border-radius: 3px;
+      box-shadow: inset 0 -1px 1px #fff, inset 0 1px 1px #fff;
+      background-color: #eee;
+    }
+
+    ::-webkit-scrollbar-thumb:vertical {
+      background: url("https://i.imgur.com/bfyvjnx.png") no-repeat 50%, linear-gradient(90deg, #eee 45%, #ddd 0, #bbb);
+    }
+
+    ::-webkit-scrollbar-thumb:horizontal {
+      background: url("https://i.imgur.com/tqe4SxM.png") no-repeat 50%, linear-gradient(180deg, #eee 45%, #ddd 0, #bbb);
+    }
+
+    ::-webkit-scrollbar-button:horizontal:end:increment,
+    ::-webkit-scrollbar-button:horizontal:start:decrement,
+    ::-webkit-scrollbar-button:vertical:end:increment,
+    ::-webkit-scrollbar-button:vertical:start:decrement {
+      display: block;
+    }
+
+    ::-webkit-scrollbar-button:vertical {
+      height: 17px;
+    }
+
+    ::-webkit-scrollbar-button:vertical:start:decrement {
+      background: white;
+      background-image: url("https://i.imgur.com/EFnEMEb.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      -moz-background-size: cover;
+      -webkit-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+    }
+
+    ::-webkit-scrollbar-button:vertical:start:increment {
+      display: none;
+    }
+
+    ::-webkit-scrollbar-button:vertical:end:decrement {
+      display: none;
+    }
+
+    ::-webkit-scrollbar-button:vertical:end:increment {
+      background: white;
+      background-image: url("https://i.imgur.com/xuIt6Lc.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      -moz-background-size: cover;
+      -webkit-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+    }
+
+    @media only screen and (max-width: 500px) {
+  body {
+    transform: scale(0.27);
+    transform-origin: top left;
+    width: 500%;  
+    margin: 0;
+    padding: 0;
+  }
+}
+
+
+.urm-title{
+  border:  rgb(54, 20, 34) 8px;
+  margin: 0;
+  letter-spacing: 5px;
+   color: whitesmoke  ;
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+
+ 
+}
+
+
+ 
+.mediaimgs:hover{
+ filter: saturate(0.7);
+ transform: rotate(10deg);
+
+margin: 0;}
+
+.mediaimgs{
+  cursor: pointer;
+  filter: saturate(0);
+   width: 400px;
+  height: 550px;
+  display: inline-block;
+}
