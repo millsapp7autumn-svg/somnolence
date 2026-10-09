@@ -140,12 +140,10 @@ overflow: auto;
 
 
 h3{
-  margin-top:60px;
-  letter-spacing: 8px;
-  font-size: 3rem;
+margin-top:60px;
+letter-spacing: 8px;
+font-size: 3rem;
 color: rgb(97, 102, 99);
-border-bottom: dotted rgb(97, 102, 99) 8px;
-border-radius: 10px;
 display: inline-block;
 }
 
