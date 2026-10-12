@@ -70,8 +70,8 @@ body, html{
   background-repeat: no-repeat, repeat-x;
   background-attachment: fixed;
   font-family: Luminari;
-   min-width: 1000px;
-height: auto;
+     min-width: fit-content;
+   min-height: fit-content;
 }
 
 
