@@ -101,7 +101,7 @@ body.shortstories{
   margin: 0;
   padding: 0;
   max-width: 100%;
-  border: solid 10px white;
+  border: dotted 5px grey;
 }
 
 body.media{
